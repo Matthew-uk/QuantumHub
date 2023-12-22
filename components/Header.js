@@ -13,6 +13,10 @@ const Logo = styled(Link)`
   text-decoration: none;
   position: relative;
   z-index: 3;
+  color: #cc3904;
+  span {
+    color: #fff;
+  }
 `;
 const Wrapper = styled.div`
   display: flex;
@@ -72,7 +76,9 @@ export default function Header() {
     <StyledHeader>
       <Center>
         <Wrapper>
-          <Logo href={"/"}>Ecommerce</Logo>
+          <Logo href={"/"}>
+            Quantum<span>Hub</span>
+          </Logo>
           <StyledNav mobileNavActive={mobileNavActive}>
             <NavLink href={"/"}>Home</NavLink>
             <NavLink href={"/products"}>All products</NavLink>
