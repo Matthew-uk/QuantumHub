@@ -14,6 +14,7 @@ const Logo = styled(Link)`
   position: relative;
   z-index: 3;
   color: #cc3904;
+  font-size: 1.2em;
   span {
     color: #fff;
   }
